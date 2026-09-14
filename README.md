@@ -1,2 +1,2 @@
-# mathmodeling
-数模比赛版本管理仓库
+# CUMCM2026
+C题解答
