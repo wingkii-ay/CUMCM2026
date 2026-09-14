@@ -1,0 +1,2488 @@
+C:\Users\wingkii\.claude\skills\math-modeling\tools\figure\scripts\profile_data.py:354: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  non_null = pd.to_datetime(s, errors="coerce").dropna()
+C:\Users\wingkii\.claude\skills\math-modeling\tools\figure\scripts\profile_data.py:354: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  non_null = pd.to_datetime(s, errors="coerce").dropna()
+{
+  "source": "C:\\Users\\wingkii\\Desktop\\问题四\\results\\q43_dispatch.csv",
+  "n_rows": 48096,
+  "n_cols": 29,
+  "columns": {
+    "date": {
+      "type": "datetime",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "min": "2025-02-01 00:00:00",
+      "max": "2025-12-31 00:00:00"
+    },
+    "slot": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 72.5,
+      "median": 72.5,
+      "sd": 41.56864917007434,
+      "min": 1.0,
+      "max": 144.0,
+      "skewness": 6.500307795543165e-18,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -70.5,
+      "outlier_hi": 215.5,
+      "needs_log_axis": true
+    },
+    "storage_start_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 6506.619675607414,
+      "median": 6414.289529502315,
+      "sd": 3371.2886171086484,
+      "min": 1200.0,
+      "max": 10800.0,
+      "skewness": -0.08323650824304372,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -7150.0,
+      "outlier_hi": 20450.0,
+      "needs_log_axis": false
+    },
+    "storage_end_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 6506.606041457789,
+      "median": 6413.803051099538,
+      "sd": 3371.2902270890513,
+      "min": 1200.0,
+      "max": 10800.0,
+      "skewness": -0.0832244640913257,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -7150.0,
+      "outlier_hi": 20450.0,
+      "needs_log_axis": false
+    },
+    "charge_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 136.51238781835642,
+      "median": 0.0,
+      "sd": 268.6047226943501,
+      "min": 0.0,
+      "max": 833.3333333333343,
+      "skewness": 1.8642527795205257,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 9681,
+      "outlier_lo": -93.44230703124992,
+      "outlier_hi": 155.73717838541654,
+      "needs_log_axis": false
+    },
+    "discharge_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 110.58730486752985,
+      "median": 0.0,
+      "sd": 225.63260983973578,
+      "min": 0.0,
+      "max": 833.3333333333335,
+      "skewness": 1.9818013772827214,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 10484,
+      "outlier_lo": -56.59665,
+      "outlier_hi": 94.32775,
+      "needs_log_axis": false
+    },
+    "emergency_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 1.1133772937415467,
+      "median": 0.0,
+      "sd": 14.02070574086093,
+      "min": 0.0,
+      "max": 869.7424319444472,
+      "skewness": 27.914642151086543,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 6210,
+      "outlier_lo": -1.705302565824241e-13,
+      "outlier_hi": 2.842170943040402e-13,
+      "needs_log_axis": false
+    },
+    "unused_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 42.84053455749813,
+      "median": 1.2789769243681806e-13,
+      "sd": 120.71601949440793,
+      "min": 0.0,
+      "max": 1277.966008333333,
+      "skewness": 4.5624614699013355,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 8836,
+      "outlier_lo": -32.03903749999994,
+      "outlier_hi": 53.39839583333324,
+      "needs_log_axis": false
+    },
+    "interval": {
+      "type": "datetime",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "min": "2026-09-13 00:00:00-00:10",
+      "max": "2026-09-13 23:40:00-23:50"
+    },
+    "load_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 769.4627305649119,
+      "median": 711.29955,
+      "sd": 234.62355165116008,
+      "min": 332.6196,
+      "max": 1329.81415,
+      "skewness": 0.3286465113694493,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -69.15562499999999,
+      "outlier_hi": 1675.4560416666668,
+      "needs_log_axis": false
+    },
+    "pv_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 396.4755903668358,
+      "median": 14.2625,
+      "sd": 499.4453637021227,
+      "min": 0.0,
+      "max": 1702.7,
+      "skewness": 0.8253065816984922,
+      "skew_label": "moderately skewed",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -1265.2732687500002,
+      "outlier_hi": 2108.7887812500003,
+      "needs_log_axis": false
+    },
+    "price_yuan_per_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 0.7575275199600799,
+      "median": 0.7267,
+      "sd": 0.3360514550764193,
+      "min": 0.0076,
+      "max": 1.7936,
+      "skewness": 0.44503348065785464,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -0.39080000000000015,
+      "outlier_hi": 1.8556000000000004,
+      "needs_log_axis": true
+    },
+    "forecast_load_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 771.8412988084863,
+      "median": 711.1113,
+      "sd": 231.9719220925957,
+      "min": 368.16625,
+      "max": 1286.1671499999998,
+      "skewness": 0.3358864522988444,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -65.88465833333373,
+      "outlier_hi": 1687.0564208333337,
+      "needs_log_axis": false
+    },
+    "forecast_pv_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 396.2517688290087,
+      "median": 48.326416666666674,
+      "sd": 494.9168952327331,
+      "min": 0.0,
+      "max": 1655.0630208333332,
+      "skewness": 0.8233403652666959,
+      "skew_label": "moderately skewed",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -1256.8123874999999,
+      "outlier_hi": 2094.6873124999997,
+      "needs_log_axis": false
+    },
+    "forecast_price": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 0.7573649824153579,
+      "median": 0.7633186784037438,
+      "sd": 0.32543782123936477,
+      "min": 0.0110724753719354,
+      "max": 1.741661873699532,
+      "skewness": 0.4696772952528791,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -0.3903882582292494,
+      "outlier_hi": 1.815197097048749,
+      "needs_log_axis": true
+    },
+    "original_grid_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 418.8605609429904,
+      "median": 441.9795531249999,
+      "sd": 426.6936648804399,
+      "min": 0.0,
+      "max": 1647.232186111111,
+      "skewness": 0.728809878067461,
+      "skew_label": "moderately skewed",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -1028.519148958333,
+      "outlier_hi": 1714.1985815972218,
+      "needs_log_axis": false
+    },
+    "adjusted_grid_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 440.6393804126592,
+      "median": 463.2432079861111,
+      "sd": 427.76009744408526,
+      "min": 0.0,
+      "max": 1647.232186111111,
+      "skewness": 0.6452402400964069,
+      "skew_label": "moderately skewed",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -1059.87038125,
+      "outlier_hi": 1766.4506354166667,
+      "needs_log_axis": false
+    },
+    "reference_storage_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 6253.18461470779,
+      "median": 6154.417785918213,
+      "sd": 3505.0162325465762,
+      "min": 1199.999999999999,
+      "max": 10800.000000000002,
+      "skewness": -0.05855743822872034,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -8323.967650462964,
+      "outlier_hi": 21074.38059027778,
+      "needs_log_axis": false
+    },
+    "decision_hour": {
+      "type": "ordinal",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "n_unique": 4,
+      "categories": [
+        [
+          "0",
+          12024
+        ],
+        [
+          "6",
+          12024
+        ],
+        [
+          "12",
+          12024
+        ],
+        [
+          "18",
+          12024
+        ]
+      ],
+      "min_group_n": 12024,
+      "max_group_n": 12024,
+      "small_groups_flag": false
+    },
+    "forecast_release_hour": {
+      "type": "ordinal",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "n_unique": 4,
+      "categories": [
+        [
+          "0",
+          12024
+        ],
+        [
+          "6",
+          12024
+        ],
+        [
+          "12",
+          12024
+        ],
+        [
+          "18",
+          12024
+        ]
+      ],
+      "min_group_n": 12024,
+      "max_group_n": 12024,
+      "small_groups_flag": false
+    },
+    "increase_kwh": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 21.778819469668772,
+      "median": 0.0,
+      "sd": 79.16113915220522,
+      "min": 0.0,
+      "max": 1208.0789923611114,
+      "skewness": 6.407010534341239,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 11988,
+      "outlier_lo": 0.0,
+      "outlier_hi": 0.0,
+      "needs_log_axis": false
+    },
+    "decrease_kwh": {
+      "type": "boolean",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "n_unique": 1,
+      "categories": [
+        [
+          "0.0",
+          48096
+        ]
+      ],
+      "min_group_n": 48096,
+      "max_group_n": 48096,
+      "small_groups_flag": false
+    },
+    "plan_cost_yuan": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 265.81053835415435,
+      "median": 198.0566880799997,
+      "sd": 306.75396667093025,
+      "min": 0.0,
+      "max": 1588.789142338889,
+      "skewness": 1.1897298495815631,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 1530,
+      "outlier_lo": -603.2612605046874,
+      "outlier_hi": 1005.4354341744789,
+      "needs_log_axis": false
+    },
+    "increase_cost_yuan": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 26.27276042078719,
+      "median": 0.0,
+      "sd": 94.32642133757706,
+      "min": 0.0,
+      "max": 2117.1688684687506,
+      "skewness": 7.231887452785039,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 11988,
+      "outlier_lo": 0.0,
+      "outlier_hi": 0.0,
+      "needs_log_axis": false
+    },
+    "decrease_cost_yuan": {
+      "type": "boolean",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "n_unique": 1,
+      "categories": [
+        [
+          "0.0",
+          48096
+        ]
+      ],
+      "min_group_n": 48096,
+      "max_group_n": 48096,
+      "small_groups_flag": false
+    },
+    "emergency_cost_yuan": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 5.85908752845164,
+      "median": 0.0,
+      "sd": 82.25547039494884,
+      "min": 0.0,
+      "max": 7532.839203070856,
+      "skewness": 40.82975074634965,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 7124,
+      "outlier_lo": -4.959977428775631e-13,
+      "outlier_hi": 8.266629047959385e-13,
+      "needs_log_axis": false
+    },
+    "total_cost_yuan": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 297.9423863033931,
+      "median": 238.15189539583338,
+      "sd": 333.341193574344,
+      "min": 0.0,
+      "max": 7644.922070170856,
+      "skewness": 1.6117424356017997,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 1120,
+      "outlier_lo": -678.2944018296873,
+      "outlier_hi": 1130.490669716146,
+      "needs_log_axis": false
+    },
+    "baseline_cost_yuan": {
+      "type": "continuous",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 48096,
+      "mean": 398.5100866075584,
+      "median": 287.8519064460416,
+      "sd": 368.7195094381416,
+      "min": 0.0,
+      "max": 2621.3010449999992,
+      "skewness": 1.189943542380474,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 1451,
+      "outlier_lo": -496.9630569039575,
+      "outlier_hi": 1216.1214550210414,
+      "needs_log_axis": false
+    },
+    "history_latest_date": {
+      "type": "datetime",
+      "n_total": 48096,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "min": "2025-01-31 00:00:00",
+      "max": "2025-12-30 00:00:00"
+    }
+  },
+  "correlation": {
+    "columns": [
+      "slot",
+      "storage_start_kwh",
+      "storage_end_kwh",
+      "charge_kwh",
+      "discharge_kwh",
+      "emergency_kwh",
+      "unused_kwh",
+      "load_kwh",
+      "pv_kwh",
+      "price_yuan_per_kwh",
+      "forecast_load_kwh",
+      "forecast_pv_kwh",
+      "forecast_price",
+      "original_grid_kwh",
+      "adjusted_grid_kwh",
+      "reference_storage_kwh",
+      "increase_kwh",
+      "plan_cost_yuan",
+      "increase_cost_yuan",
+      "emergency_cost_yuan",
+      "total_cost_yuan",
+      "baseline_cost_yuan"
+    ],
+    "matrix": {
+      "slot": {
+        "slot": 1.0,
+        "storage_start_kwh": -0.096,
+        "storage_end_kwh": -0.108,
+        "charge_kwh": -0.009,
+        "discharge_kwh": 0.143,
+        "emergency_kwh": 0.035,
+        "unused_kwh": -0.007,
+        "load_kwh": 0.124,
+        "pv_kwh": -0.01,
+        "price_yuan_per_kwh": 0.398,
+        "forecast_load_kwh": 0.123,
+        "forecast_pv_kwh": 0.0,
+        "forecast_price": 0.411,
+        "original_grid_kwh": -0.021,
+        "adjusted_grid_kwh": -0.005,
+        "reference_storage_kwh": -0.102,
+        "increase_kwh": 0.088,
+        "plan_cost_yuan": 0.184,
+        "increase_cost_yuan": 0.114,
+        "emergency_cost_yuan": 0.049,
+        "total_cost_yuan": 0.213,
+        "baseline_cost_yuan": 0.35
+      },
+      "storage_start_kwh": {
+        "slot": -0.096,
+        "storage_start_kwh": 1.0,
+        "storage_end_kwh": 0.993,
+        "charge_kwh": -0.091,
+        "discharge_kwh": 0.002,
+        "emergency_kwh": -0.051,
+        "unused_kwh": -0.085,
+        "load_kwh": 0.184,
+        "pv_kwh": -0.007,
+        "price_yuan_per_kwh": 0.102,
+        "forecast_load_kwh": 0.193,
+        "forecast_pv_kwh": 0.013,
+        "forecast_price": 0.08,
+        "original_grid_kwh": 0.018,
+        "adjusted_grid_kwh": 0.028,
+        "reference_storage_kwh": 0.991,
+        "increase_kwh": 0.053,
+        "plan_cost_yuan": 0.111,
+        "increase_cost_yuan": 0.068,
+        "emergency_cost_yuan": -0.057,
+        "total_cost_yuan": 0.107,
+        "baseline_cost_yuan": 0.13
+      },
+      "storage_end_kwh": {
+        "slot": -0.108,
+        "storage_start_kwh": 0.993,
+        "storage_end_kwh": 1.0,
+        "charge_kwh": -0.0,
+        "discharge_kwh": -0.09,
+        "emergency_kwh": -0.056,
+        "unused_kwh": -0.066,
+        "load_kwh": 0.179,
+        "pv_kwh": 0.026,
+        "price_yuan_per_kwh": 0.031,
+        "forecast_load_kwh": 0.19,
+        "forecast_pv_kwh": 0.045,
+        "forecast_price": 0.008,
+        "original_grid_kwh": 0.086,
+        "adjusted_grid_kwh": 0.099,
+        "reference_storage_kwh": 0.995,
+        "increase_kwh": 0.071,
+        "plan_cost_yuan": 0.154,
+        "increase_cost_yuan": 0.078,
+        "emergency_cost_yuan": -0.063,
+        "total_cost_yuan": 0.148,
+        "baseline_cost_yuan": 0.066
+      },
+      "charge_kwh": {
+        "slot": -0.009,
+        "storage_start_kwh": -0.091,
+        "storage_end_kwh": -0.0,
+        "charge_kwh": 1.0,
+        "discharge_kwh": -0.249,
+        "emergency_kwh": -0.019,
+        "unused_kwh": 0.088,
+        "load_kwh": 0.002,
+        "pv_kwh": 0.236,
+        "price_yuan_per_kwh": -0.374,
+        "forecast_load_kwh": 0.01,
+        "forecast_pv_kwh": 0.234,
+        "forecast_price": -0.396,
+        "original_grid_kwh": 0.48,
+        "adjusted_grid_kwh": 0.51,
+        "reference_storage_kwh": -0.019,
+        "increase_kwh": 0.17,
+        "plan_cost_yuan": 0.209,
+        "increase_cost_yuan": 0.082,
+        "emergency_cost_yuan": -0.027,
+        "total_cost_yuan": 0.209,
+        "baseline_cost_yuan": -0.327
+      },
+      "discharge_kwh": {
+        "slot": 0.143,
+        "storage_start_kwh": 0.002,
+        "storage_end_kwh": -0.09,
+        "charge_kwh": -0.249,
+        "discharge_kwh": 1.0,
+        "emergency_kwh": 0.036,
+        "unused_kwh": -0.174,
+        "load_kwh": 0.058,
+        "pv_kwh": -0.207,
+        "price_yuan_per_kwh": 0.591,
+        "forecast_load_kwh": 0.053,
+        "forecast_pv_kwh": -0.212,
+        "forecast_price": 0.584,
+        "original_grid_kwh": -0.447,
+        "adjusted_grid_kwh": -0.461,
+        "reference_storage_kwh": -0.071,
+        "increase_kwh": -0.081,
+        "plan_cost_yuan": -0.371,
+        "increase_cost_yuan": -0.05,
+        "emergency_cost_yuan": 0.056,
+        "total_cost_yuan": -0.341,
+        "baseline_cost_yuan": 0.551
+      },
+      "emergency_kwh": {
+        "slot": 0.035,
+        "storage_start_kwh": -0.051,
+        "storage_end_kwh": -0.056,
+        "charge_kwh": -0.019,
+        "discharge_kwh": 0.036,
+        "emergency_kwh": 1.0,
+        "unused_kwh": -0.028,
+        "load_kwh": 0.033,
+        "pv_kwh": -0.034,
+        "price_yuan_per_kwh": 0.07,
+        "forecast_load_kwh": 0.01,
+        "forecast_pv_kwh": -0.033,
+        "forecast_price": 0.057,
+        "original_grid_kwh": -0.016,
+        "adjusted_grid_kwh": -0.014,
+        "reference_storage_kwh": -0.041,
+        "increase_kwh": 0.009,
+        "plan_cost_yuan": -0.0,
+        "increase_cost_yuan": 0.024,
+        "emergency_cost_yuan": 0.918,
+        "total_cost_yuan": 0.233,
+        "baseline_cost_yuan": 0.118
+      },
+      "unused_kwh": {
+        "slot": -0.007,
+        "storage_start_kwh": -0.085,
+        "storage_end_kwh": -0.066,
+        "charge_kwh": 0.088,
+        "discharge_kwh": -0.174,
+        "emergency_kwh": -0.028,
+        "unused_kwh": 1.0,
+        "load_kwh": 0.016,
+        "pv_kwh": 0.454,
+        "price_yuan_per_kwh": -0.195,
+        "forecast_load_kwh": 0.034,
+        "forecast_pv_kwh": 0.451,
+        "forecast_price": -0.132,
+        "original_grid_kwh": -0.1,
+        "adjusted_grid_kwh": -0.092,
+        "reference_storage_kwh": -0.077,
+        "increase_kwh": 0.043,
+        "plan_cost_yuan": -0.103,
+        "increase_cost_yuan": 0.013,
+        "emergency_cost_yuan": -0.025,
+        "total_cost_yuan": -0.097,
+        "baseline_cost_yuan": -0.284
+      },
+      "load_kwh": {
+        "slot": 0.124,
+        "storage_start_kwh": 0.184,
+        "storage_end_kwh": 0.179,
+        "charge_kwh": 0.002,
+        "discharge_kwh": 0.058,
+        "emergency_kwh": 0.033,
+        "unused_kwh": 0.016,
+        "load_kwh": 1.0,
+        "pv_kwh": 0.575,
+        "price_yuan_per_kwh": 0.506,
+        "forecast_load_kwh": 0.971,
+        "forecast_pv_kwh": 0.578,
+        "forecast_price": 0.421,
+        "original_grid_kwh": -0.187,
+        "adjusted_grid_kwh": -0.149,
+        "reference_storage_kwh": 0.167,
+        "increase_kwh": 0.205,
+        "plan_cost_yuan": 0.08,
+        "increase_cost_yuan": 0.196,
+        "emergency_cost_yuan": 0.043,
+        "total_cost_yuan": 0.139,
+        "baseline_cost_yuan": 0.207
+      },
+      "pv_kwh": {
+        "slot": -0.01,
+        "storage_start_kwh": -0.007,
+        "storage_end_kwh": 0.026,
+        "charge_kwh": 0.236,
+        "discharge_kwh": -0.207,
+        "emergency_kwh": -0.034,
+        "unused_kwh": 0.454,
+        "load_kwh": 0.575,
+        "pv_kwh": 1.0,
+        "price_yuan_per_kwh": 0.022,
+        "forecast_load_kwh": 0.586,
+        "forecast_pv_kwh": 0.998,
+        "forecast_price": 0.03,
+        "original_grid_kwh": -0.493,
+        "adjusted_grid_kwh": -0.466,
+        "reference_storage_kwh": -0.009,
+        "increase_kwh": 0.144,
+        "plan_cost_yuan": -0.41,
+        "increase_cost_yuan": 0.072,
+        "emergency_cost_yuan": -0.029,
+        "total_cost_yuan": -0.364,
+        "baseline_cost_yuan": -0.503
+      },
+      "price_yuan_per_kwh": {
+        "slot": 0.398,
+        "storage_start_kwh": 0.102,
+        "storage_end_kwh": 0.031,
+        "charge_kwh": -0.374,
+        "discharge_kwh": 0.591,
+        "emergency_kwh": 0.07,
+        "unused_kwh": -0.195,
+        "load_kwh": 0.506,
+        "pv_kwh": 0.022,
+        "price_yuan_per_kwh": 1.0,
+        "forecast_load_kwh": 0.486,
+        "forecast_pv_kwh": 0.025,
+        "forecast_price": 0.97,
+        "original_grid_kwh": -0.359,
+        "adjusted_grid_kwh": -0.351,
+        "reference_storage_kwh": 0.046,
+        "increase_kwh": 0.038,
+        "plan_cost_yuan": 0.049,
+        "increase_cost_yuan": 0.124,
+        "emergency_cost_yuan": 0.095,
+        "total_cost_yuan": 0.104,
+        "baseline_cost_yuan": 0.721
+      },
+      "forecast_load_kwh": {
+        "slot": 0.123,
+        "storage_start_kwh": 0.193,
+        "storage_end_kwh": 0.19,
+        "charge_kwh": 0.01,
+        "discharge_kwh": 0.053,
+        "emergency_kwh": 0.01,
+        "unused_kwh": 0.034,
+        "load_kwh": 0.971,
+        "pv_kwh": 0.586,
+        "price_yuan_per_kwh": 0.486,
+        "forecast_load_kwh": 1.0,
+        "forecast_pv_kwh": 0.589,
+        "forecast_price": 0.417,
+        "original_grid_kwh": -0.201,
+        "adjusted_grid_kwh": -0.163,
+        "reference_storage_kwh": 0.175,
+        "increase_kwh": 0.201,
+        "plan_cost_yuan": 0.057,
+        "increase_cost_yuan": 0.188,
+        "emergency_cost_yuan": 0.021,
+        "total_cost_yuan": 0.111,
+        "baseline_cost_yuan": 0.173
+      },
+      "forecast_pv_kwh": {
+        "slot": 0.0,
+        "storage_start_kwh": 0.013,
+        "storage_end_kwh": 0.045,
+        "charge_kwh": 0.234,
+        "discharge_kwh": -0.212,
+        "emergency_kwh": -0.033,
+        "unused_kwh": 0.451,
+        "load_kwh": 0.578,
+        "pv_kwh": 0.998,
+        "price_yuan_per_kwh": 0.025,
+        "forecast_load_kwh": 0.589,
+        "forecast_pv_kwh": 1.0,
+        "forecast_price": 0.032,
+        "original_grid_kwh": -0.489,
+        "adjusted_grid_kwh": -0.461,
+        "reference_storage_kwh": 0.012,
+        "increase_kwh": 0.141,
+        "plan_cost_yuan": -0.401,
+        "increase_cost_yuan": 0.072,
+        "emergency_cost_yuan": -0.029,
+        "total_cost_yuan": -0.355,
+        "baseline_cost_yuan": -0.497
+      },
+      "forecast_price": {
+        "slot": 0.411,
+        "storage_start_kwh": 0.08,
+        "storage_end_kwh": 0.008,
+        "charge_kwh": -0.396,
+        "discharge_kwh": 0.584,
+        "emergency_kwh": 0.057,
+        "unused_kwh": -0.132,
+        "load_kwh": 0.421,
+        "pv_kwh": 0.03,
+        "price_yuan_per_kwh": 0.97,
+        "forecast_load_kwh": 0.417,
+        "forecast_pv_kwh": 0.032,
+        "forecast_price": 1.0,
+        "original_grid_kwh": -0.404,
+        "adjusted_grid_kwh": -0.4,
+        "reference_storage_kwh": 0.022,
+        "increase_kwh": 0.018,
+        "plan_cost_yuan": 0.009,
+        "increase_cost_yuan": 0.106,
+        "emergency_cost_yuan": 0.081,
+        "total_cost_yuan": 0.058,
+        "baseline_cost_yuan": 0.684
+      },
+      "original_grid_kwh": {
+        "slot": -0.021,
+        "storage_start_kwh": 0.018,
+        "storage_end_kwh": 0.086,
+        "charge_kwh": 0.48,
+        "discharge_kwh": -0.447,
+        "emergency_kwh": -0.016,
+        "unused_kwh": -0.1,
+        "load_kwh": -0.187,
+        "pv_kwh": -0.493,
+        "price_yuan_per_kwh": -0.359,
+        "forecast_load_kwh": -0.201,
+        "forecast_pv_kwh": -0.489,
+        "forecast_price": -0.404,
+        "original_grid_kwh": 1.0,
+        "adjusted_grid_kwh": 0.983,
+        "reference_storage_kwh": 0.094,
+        "increase_kwh": -0.079,
+        "plan_cost_yuan": 0.825,
+        "increase_cost_yuan": -0.07,
+        "emergency_cost_yuan": -0.028,
+        "total_cost_yuan": 0.733,
+        "baseline_cost_yuan": 0.117
+      },
+      "adjusted_grid_kwh": {
+        "slot": -0.005,
+        "storage_start_kwh": 0.028,
+        "storage_end_kwh": 0.099,
+        "charge_kwh": 0.51,
+        "discharge_kwh": -0.461,
+        "emergency_kwh": -0.014,
+        "unused_kwh": -0.092,
+        "load_kwh": -0.149,
+        "pv_kwh": -0.466,
+        "price_yuan_per_kwh": -0.351,
+        "forecast_load_kwh": -0.163,
+        "forecast_pv_kwh": -0.461,
+        "forecast_price": -0.4,
+        "original_grid_kwh": 0.983,
+        "adjusted_grid_kwh": 1.0,
+        "reference_storage_kwh": 0.107,
+        "increase_kwh": 0.106,
+        "plan_cost_yuan": 0.821,
+        "increase_cost_yuan": 0.103,
+        "emergency_cost_yuan": -0.026,
+        "total_cost_yuan": 0.778,
+        "baseline_cost_yuan": 0.121
+      },
+      "reference_storage_kwh": {
+        "slot": -0.102,
+        "storage_start_kwh": 0.991,
+        "storage_end_kwh": 0.995,
+        "charge_kwh": -0.019,
+        "discharge_kwh": -0.071,
+        "emergency_kwh": -0.041,
+        "unused_kwh": -0.077,
+        "load_kwh": 0.167,
+        "pv_kwh": -0.009,
+        "price_yuan_per_kwh": 0.046,
+        "forecast_load_kwh": 0.175,
+        "forecast_pv_kwh": 0.012,
+        "forecast_price": 0.022,
+        "original_grid_kwh": 0.094,
+        "adjusted_grid_kwh": 0.107,
+        "reference_storage_kwh": 1.0,
+        "increase_kwh": 0.069,
+        "plan_cost_yuan": 0.167,
+        "increase_cost_yuan": 0.081,
+        "emergency_cost_yuan": -0.05,
+        "total_cost_yuan": 0.164,
+        "baseline_cost_yuan": 0.097
+      },
+      "increase_kwh": {
+        "slot": 0.088,
+        "storage_start_kwh": 0.053,
+        "storage_end_kwh": 0.071,
+        "charge_kwh": 0.17,
+        "discharge_kwh": -0.081,
+        "emergency_kwh": 0.009,
+        "unused_kwh": 0.043,
+        "load_kwh": 0.205,
+        "pv_kwh": 0.144,
+        "price_yuan_per_kwh": 0.038,
+        "forecast_load_kwh": 0.201,
+        "forecast_pv_kwh": 0.141,
+        "forecast_price": 0.018,
+        "original_grid_kwh": -0.079,
+        "adjusted_grid_kwh": 0.106,
+        "reference_storage_kwh": 0.069,
+        "increase_kwh": 1.0,
+        "plan_cost_yuan": -0.014,
+        "increase_cost_yuan": 0.936,
+        "emergency_cost_yuan": 0.012,
+        "total_cost_yuan": 0.255,
+        "baseline_cost_yuan": 0.025
+      },
+      "plan_cost_yuan": {
+        "slot": 0.184,
+        "storage_start_kwh": 0.111,
+        "storage_end_kwh": 0.154,
+        "charge_kwh": 0.209,
+        "discharge_kwh": -0.371,
+        "emergency_kwh": -0.0,
+        "unused_kwh": -0.103,
+        "load_kwh": 0.08,
+        "pv_kwh": -0.41,
+        "price_yuan_per_kwh": 0.049,
+        "forecast_load_kwh": 0.057,
+        "forecast_pv_kwh": -0.401,
+        "forecast_price": 0.009,
+        "original_grid_kwh": 0.825,
+        "adjusted_grid_kwh": 0.821,
+        "reference_storage_kwh": 0.167,
+        "increase_kwh": -0.014,
+        "plan_cost_yuan": 1.0,
+        "increase_cost_yuan": 0.022,
+        "emergency_cost_yuan": -0.007,
+        "total_cost_yuan": 0.925,
+        "baseline_cost_yuan": 0.442
+      },
+      "increase_cost_yuan": {
+        "slot": 0.114,
+        "storage_start_kwh": 0.068,
+        "storage_end_kwh": 0.078,
+        "charge_kwh": 0.082,
+        "discharge_kwh": -0.05,
+        "emergency_kwh": 0.024,
+        "unused_kwh": 0.013,
+        "load_kwh": 0.196,
+        "pv_kwh": 0.072,
+        "price_yuan_per_kwh": 0.124,
+        "forecast_load_kwh": 0.188,
+        "forecast_pv_kwh": 0.072,
+        "forecast_price": 0.106,
+        "original_grid_kwh": -0.07,
+        "adjusted_grid_kwh": 0.103,
+        "reference_storage_kwh": 0.081,
+        "increase_kwh": 0.936,
+        "plan_cost_yuan": 0.022,
+        "increase_cost_yuan": 1.0,
+        "emergency_cost_yuan": 0.03,
+        "total_cost_yuan": 0.31,
+        "baseline_cost_yuan": 0.128
+      },
+      "emergency_cost_yuan": {
+        "slot": 0.049,
+        "storage_start_kwh": -0.057,
+        "storage_end_kwh": -0.063,
+        "charge_kwh": -0.027,
+        "discharge_kwh": 0.056,
+        "emergency_kwh": 0.918,
+        "unused_kwh": -0.025,
+        "load_kwh": 0.043,
+        "pv_kwh": -0.029,
+        "price_yuan_per_kwh": 0.095,
+        "forecast_load_kwh": 0.021,
+        "forecast_pv_kwh": -0.029,
+        "forecast_price": 0.081,
+        "original_grid_kwh": -0.028,
+        "adjusted_grid_kwh": -0.026,
+        "reference_storage_kwh": -0.05,
+        "increase_kwh": 0.012,
+        "plan_cost_yuan": -0.007,
+        "increase_cost_yuan": 0.03,
+        "emergency_cost_yuan": 1.0,
+        "total_cost_yuan": 0.248,
+        "baseline_cost_yuan": 0.139
+      },
+      "total_cost_yuan": {
+        "slot": 0.213,
+        "storage_start_kwh": 0.107,
+        "storage_end_kwh": 0.148,
+        "charge_kwh": 0.209,
+        "discharge_kwh": -0.341,
+        "emergency_kwh": 0.233,
+        "unused_kwh": -0.097,
+        "load_kwh": 0.139,
+        "pv_kwh": -0.364,
+        "price_yuan_per_kwh": 0.104,
+        "forecast_load_kwh": 0.111,
+        "forecast_pv_kwh": -0.355,
+        "forecast_price": 0.058,
+        "original_grid_kwh": 0.733,
+        "adjusted_grid_kwh": 0.778,
+        "reference_storage_kwh": 0.164,
+        "increase_kwh": 0.255,
+        "plan_cost_yuan": 0.925,
+        "increase_cost_yuan": 0.31,
+        "emergency_cost_yuan": 0.248,
+        "total_cost_yuan": 1.0,
+        "baseline_cost_yuan": 0.477
+      },
+      "baseline_cost_yuan": {
+        "slot": 0.35,
+        "storage_start_kwh": 0.13,
+        "storage_end_kwh": 0.066,
+        "charge_kwh": -0.327,
+        "discharge_kwh": 0.551,
+        "emergency_kwh": 0.118,
+        "unused_kwh": -0.284,
+        "load_kwh": 0.207,
+        "pv_kwh": -0.503,
+        "price_yuan_per_kwh": 0.721,
+        "forecast_load_kwh": 0.173,
+        "forecast_pv_kwh": -0.497,
+        "forecast_price": 0.684,
+        "original_grid_kwh": 0.117,
+        "adjusted_grid_kwh": 0.121,
+        "reference_storage_kwh": 0.097,
+        "increase_kwh": 0.025,
+        "plan_cost_yuan": 0.442,
+        "increase_cost_yuan": 0.128,
+        "emergency_cost_yuan": 0.139,
+        "total_cost_yuan": 0.477,
+        "baseline_cost_yuan": 1.0
+      }
+    },
+    "pairs_sorted": [
+      {
+        "a": "pv_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.9980431111374348,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.9946612202455393,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "storage_end_kwh",
+        "r": 0.9933357662508518,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.9907270830621149,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": 0.9828367794079614,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "load_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.9706305728629236,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "forecast_price",
+        "r": 0.9699374939267573,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "increase_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.9363454974826235,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "plan_cost_yuan",
+        "b": "total_cost_yuan",
+        "r": 0.9246079428201878,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "emergency_cost_yuan",
+        "r": 0.917853545554207,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.8251074350618468,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "adjusted_grid_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.8205046841820981,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "adjusted_grid_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.7779253979011982,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.7325353000203061,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.7212200756688986,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "forecast_price",
+        "b": "baseline_cost_yuan",
+        "r": 0.6836975881989489,
+        "magnitude": "strong"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": 0.590673192836748,
+        "magnitude": "strong"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.5887508321436534,
+        "magnitude": "strong"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.5856931179182177,
+        "magnitude": "strong"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "forecast_price",
+        "r": 0.5839549077697376,
+        "magnitude": "strong"
+      },
+      {
+        "a": "load_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.5779541998172244,
+        "magnitude": "strong"
+      },
+      {
+        "a": "load_kwh",
+        "b": "pv_kwh",
+        "r": 0.5751091931762398,
+        "magnitude": "strong"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.5507747271234789,
+        "magnitude": "strong"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": 0.5104952300534185,
+        "magnitude": "strong"
+      },
+      {
+        "a": "load_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": 0.5060819169393848,
+        "magnitude": "strong"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "baseline_cost_yuan",
+        "r": -0.5027022655325214,
+        "magnitude": "strong"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "baseline_cost_yuan",
+        "r": -0.49673672866990193,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.4934753872930484,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.4887777141921185,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.4864902339555327,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "original_grid_kwh",
+        "r": 0.4801917611476147,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "total_cost_yuan",
+        "b": "baseline_cost_yuan",
+        "r": 0.4774478603303059,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.4655924716798574,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.4613746913627916,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.4606612391140634,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "pv_kwh",
+        "r": 0.4544990331230642,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.45066627713301355,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.4467170856312893,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "plan_cost_yuan",
+        "b": "baseline_cost_yuan",
+        "r": 0.4421384433618182,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "load_kwh",
+        "b": "forecast_price",
+        "r": 0.42075169519827765,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "forecast_price",
+        "r": 0.41713571648783293,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "slot",
+        "b": "forecast_price",
+        "r": 0.41123512751462477,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "plan_cost_yuan",
+        "r": -0.41042441750492004,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "forecast_price",
+        "b": "original_grid_kwh",
+        "r": -0.4043623426406313,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "plan_cost_yuan",
+        "r": -0.4006326173459563,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "forecast_price",
+        "b": "adjusted_grid_kwh",
+        "r": -0.40002005756326475,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "slot",
+        "b": "price_yuan_per_kwh",
+        "r": 0.39803950678288186,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "forecast_price",
+        "r": -0.3962566969810475,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": -0.37370405428385406,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "plan_cost_yuan",
+        "r": -0.37053274604486547,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "total_cost_yuan",
+        "r": -0.364424009584488,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.3590805870111818,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "total_cost_yuan",
+        "r": -0.3553456655607795,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.35110959319991913,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "slot",
+        "b": "baseline_cost_yuan",
+        "r": 0.34976446034075503,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "total_cost_yuan",
+        "r": -0.3412836143992755,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "baseline_cost_yuan",
+        "r": -0.3266563903453851,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "increase_cost_yuan",
+        "b": "total_cost_yuan",
+        "r": 0.31049879078188236,
+        "magnitude": "moderate"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "baseline_cost_yuan",
+        "r": -0.28390927221366136,
+        "magnitude": "weak"
+      },
+      {
+        "a": "increase_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.25514125247446484,
+        "magnitude": "weak"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "discharge_kwh",
+        "r": -0.24909835291433655,
+        "magnitude": "weak"
+      },
+      {
+        "a": "emergency_cost_yuan",
+        "b": "total_cost_yuan",
+        "r": 0.24832147499284288,
+        "magnitude": "weak"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "pv_kwh",
+        "r": 0.23570210422145801,
+        "magnitude": "weak"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.23382487586027662,
+        "magnitude": "weak"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.2328113271490508,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "total_cost_yuan",
+        "r": 0.2132478417636026,
+        "magnitude": "weak"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "forecast_pv_kwh",
+        "r": -0.21199471087517283,
+        "magnitude": "weak"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.2087128768860878,
+        "magnitude": "weak"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.20854135362312765,
+        "magnitude": "weak"
+      },
+      {
+        "a": "load_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.20724303443606382,
+        "magnitude": "weak"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "pv_kwh",
+        "r": -0.20697566290434985,
+        "magnitude": "weak"
+      },
+      {
+        "a": "load_kwh",
+        "b": "increase_kwh",
+        "r": 0.20482649413926268,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.20111442425622528,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "increase_kwh",
+        "r": 0.20059812029209664,
+        "magnitude": "weak"
+      },
+      {
+        "a": "load_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.19599030921243252,
+        "magnitude": "weak"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": -0.19461827262253092,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.19336668084689282,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.1901796169451879,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.18813516317881238,
+        "magnitude": "weak"
+      },
+      {
+        "a": "load_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.18740853891774523,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "plan_cost_yuan",
+        "r": 0.18361823760880372,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "load_kwh",
+        "r": 0.18361551485064406,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "load_kwh",
+        "r": 0.1794225685484599,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.1746179817351889,
+        "magnitude": "weak"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "unused_kwh",
+        "r": -0.17394117990402166,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.1731008266720879,
+        "magnitude": "weak"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "increase_kwh",
+        "r": 0.1702187094237327,
+        "magnitude": "weak"
+      },
+      {
+        "a": "reference_storage_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.16716538311344534,
+        "magnitude": "weak"
+      },
+      {
+        "a": "load_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.16677360196044722,
+        "magnitude": "weak"
+      },
+      {
+        "a": "reference_storage_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.1643524091719246,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.16349041308419995,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.15359271930629081,
+        "magnitude": "weak"
+      },
+      {
+        "a": "load_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.1490361959354943,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.14774937481402586,
+        "magnitude": "weak"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "increase_kwh",
+        "r": 0.1440219355025858,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "discharge_kwh",
+        "r": 0.14310276555337537,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "increase_kwh",
+        "r": 0.14149204224225198,
+        "magnitude": "weak"
+      },
+      {
+        "a": "load_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.13939839489266861,
+        "magnitude": "weak"
+      },
+      {
+        "a": "emergency_cost_yuan",
+        "b": "baseline_cost_yuan",
+        "r": 0.13906953276110098,
+        "magnitude": "weak"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "forecast_price",
+        "r": -0.13162963938066372,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.130028445237552,
+        "magnitude": "weak"
+      },
+      {
+        "a": "increase_cost_yuan",
+        "b": "baseline_cost_yuan",
+        "r": 0.12813046765494554,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "load_kwh",
+        "r": 0.1240135437270081,
+        "magnitude": "weak"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.12394050950126888,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "forecast_load_kwh",
+        "r": 0.1230328014847138,
+        "magnitude": "weak"
+      },
+      {
+        "a": "adjusted_grid_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.12099743274810644,
+        "magnitude": "weak"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.11782242249011465,
+        "magnitude": "weak"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.11666986447232655,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "increase_cost_yuan",
+        "r": 0.11394934793558276,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.11107232402463846,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.11084597630830832,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "storage_end_kwh",
+        "r": -0.10766057191404216,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.1074163619588935,
+        "magnitude": "weak"
+      },
+      {
+        "a": "adjusted_grid_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.10661914078643007,
+        "magnitude": "weak"
+      },
+      {
+        "a": "adjusted_grid_kwh",
+        "b": "increase_kwh",
+        "r": 0.10598470599607265,
+        "magnitude": "weak"
+      },
+      {
+        "a": "forecast_price",
+        "b": "increase_cost_yuan",
+        "r": 0.10555865910049216,
+        "magnitude": "weak"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "total_cost_yuan",
+        "r": 0.10352309252484584,
+        "magnitude": "weak"
+      },
+      {
+        "a": "adjusted_grid_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.1033358748403857,
+        "magnitude": "weak"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "plan_cost_yuan",
+        "r": -0.10261135210020642,
+        "magnitude": "weak"
+      },
+      {
+        "a": "slot",
+        "b": "reference_storage_kwh",
+        "r": -0.1023117054759084,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": 0.10210407265892019,
+        "magnitude": "weak"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.10003358732106193,
+        "magnitude": "weak"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": 0.09879809379846115,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "total_cost_yuan",
+        "r": -0.09697396015031218,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "reference_storage_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.0966923110236283,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "storage_start_kwh",
+        "r": -0.09640631781427102,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "emergency_cost_yuan",
+        "r": 0.09486065071521967,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.09404594434836763,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.09173579221454646,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "charge_kwh",
+        "r": -0.09063014476648082,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "discharge_kwh",
+        "r": -0.09000779251853505,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "increase_kwh",
+        "r": 0.08800873151625545,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "unused_kwh",
+        "r": 0.08781698926977907,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "original_grid_kwh",
+        "r": 0.08582744270124158,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "unused_kwh",
+        "r": -0.08511172749760425,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.0819076496472754,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "increase_kwh",
+        "r": -0.08136752664846952,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_price",
+        "b": "emergency_cost_yuan",
+        "r": 0.08074175617594852,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "reference_storage_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.08065926834068456,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "load_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.07974250547332308,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "forecast_price",
+        "r": 0.07972517044106968,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "increase_kwh",
+        "r": -0.0792725877409042,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.07759881319054339,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "reference_storage_kwh",
+        "r": -0.07729331372032361,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.07249739715463333,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.07241855612400254,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "reference_storage_kwh",
+        "r": -0.07149760665952315,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "increase_kwh",
+        "r": 0.07124526273152525,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "increase_cost_yuan",
+        "r": -0.07011871699087507,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": 0.069701357859989,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "reference_storage_kwh",
+        "b": "increase_kwh",
+        "r": 0.0692082687256848,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.06803875929881388,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "unused_kwh",
+        "r": -0.06587964034200866,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.06564706001351472,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.06302123460025492,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_price",
+        "b": "total_cost_yuan",
+        "r": 0.05843299903529604,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "load_kwh",
+        "r": 0.05805328778676168,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "forecast_price",
+        "r": 0.05708829015326861,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.057068414526683334,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.05693761559617601,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "emergency_cost_yuan",
+        "r": 0.05561858130128776,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "emergency_kwh",
+        "r": -0.05557992458984063,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "increase_kwh",
+        "r": 0.05298863700562191,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.05289163081935586,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "emergency_kwh",
+        "r": -0.051494024068529876,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "reference_storage_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.049863142603352575,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "increase_cost_yuan",
+        "r": -0.04957709877903578,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "plan_cost_yuan",
+        "r": 0.048947497635068095,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "emergency_cost_yuan",
+        "r": 0.0487533915645473,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.046415187686153186,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.045217041585917106,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "increase_kwh",
+        "r": 0.043490866923015105,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "load_kwh",
+        "b": "emergency_cost_yuan",
+        "r": 0.042779318723675464,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "reference_storage_kwh",
+        "r": -0.04078225439964368,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "increase_kwh",
+        "r": 0.038235147836812165,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "discharge_kwh",
+        "b": "emergency_kwh",
+        "r": 0.036168623162238185,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "emergency_kwh",
+        "r": 0.03456449716767409,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.03422888579757195,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "pv_kwh",
+        "r": -0.033725098120277894,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "load_kwh",
+        "r": 0.033294659497308615,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "forecast_pv_kwh",
+        "r": -0.033281471720645064,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "forecast_price",
+        "r": 0.032346184121920044,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": 0.03138205316484762,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "forecast_price",
+        "r": 0.02992311606341064,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "increase_cost_yuan",
+        "b": "emergency_cost_yuan",
+        "r": 0.029751976642704004,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.02937964188993889,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.029015541057970527,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "unused_kwh",
+        "r": -0.02818197919464892,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "original_grid_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.02804360290162967,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": 0.027935505842979644,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.027160924549301614,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "adjusted_grid_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.025843742136837693,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "pv_kwh",
+        "r": 0.025754240629170918,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "emergency_cost_yuan",
+        "r": -0.02527925089131095,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "increase_kwh",
+        "b": "baseline_cost_yuan",
+        "r": 0.024956457059474715,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "price_yuan_per_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.024698259185792146,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.02382789005807485,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "plan_cost_yuan",
+        "b": "increase_cost_yuan",
+        "r": 0.021934038617722137,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_price",
+        "b": "reference_storage_kwh",
+        "r": 0.021653050586056006,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "price_yuan_per_kwh",
+        "r": 0.021633592003940993,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "original_grid_kwh",
+        "r": -0.02086921237872874,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_load_kwh",
+        "b": "emergency_cost_yuan",
+        "r": 0.020636327763633912,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "emergency_kwh",
+        "r": -0.019472068862485335,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "reference_storage_kwh",
+        "r": -0.01927633861822888,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "original_grid_kwh",
+        "r": 0.01817475737829995,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_price",
+        "b": "increase_kwh",
+        "r": 0.018016808920801576,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "load_kwh",
+        "r": 0.016240962571046704,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "original_grid_kwh",
+        "r": -0.01603050548794975,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "adjusted_grid_kwh",
+        "r": -0.014396568226350829,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "increase_kwh",
+        "b": "plan_cost_yuan",
+        "r": -0.013756140185889111,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "unused_kwh",
+        "b": "increase_cost_yuan",
+        "r": 0.013043856810409498,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "forecast_pv_kwh",
+        "r": 0.012685434901839841,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_pv_kwh",
+        "b": "reference_storage_kwh",
+        "r": 0.01171282026645507,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "increase_kwh",
+        "b": "emergency_cost_yuan",
+        "r": 0.01150951152962756,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.010407193345637552,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "forecast_load_kwh",
+        "r": 0.00991922317472949,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "pv_kwh",
+        "r": -0.009715383350864562,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "forecast_price",
+        "b": "plan_cost_yuan",
+        "r": 0.009387666555358838,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "increase_kwh",
+        "r": 0.008613288243134865,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "pv_kwh",
+        "b": "reference_storage_kwh",
+        "r": -0.008574848679239293,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "charge_kwh",
+        "r": -0.00854305230266153,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "forecast_price",
+        "r": 0.007885584118743247,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "plan_cost_yuan",
+        "b": "emergency_cost_yuan",
+        "r": -0.007452523075583385,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "unused_kwh",
+        "r": -0.0067821754054288984,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "pv_kwh",
+        "r": -0.006538748281639372,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "adjusted_grid_kwh",
+        "r": -0.004530318004085377,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_start_kwh",
+        "b": "discharge_kwh",
+        "r": 0.0022183218344779864,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "charge_kwh",
+        "b": "load_kwh",
+        "r": 0.001732344482769426,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "emergency_kwh",
+        "b": "plan_cost_yuan",
+        "r": -0.00045792096020985695,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "storage_end_kwh",
+        "b": "charge_kwh",
+        "r": -0.0003993858392866552,
+        "magnitude": "negligible"
+      },
+      {
+        "a": "slot",
+        "b": "forecast_pv_kwh",
+        "r": 0.00024337369334488212,
+        "magnitude": "negligible"
+      }
+    ]
+  },
+  "group_summary": null,
+  "warnings": [],
+  "suggestions": [
+    "时间序列存在：用折线图 (date 作 x 轴，slot/storage_start_kwh 作 y 轴) + 误差带",
+    "分类 vs 连续，样本量充足 → 箱线图 / 小提琴图，或带误差棒的柱状图（误差棒说明 SD/SEM/CI）",
+    "≥3 个连续变量 → 相关性热力图（['slot', 'storage_start_kwh', 'storage_end_kwh', 'charge_kwh', 'discharge_kwh']）或 pairplot 散点矩阵",
+    "分类维度组合数 = 16（decision_hour, forecast_release_hour, decrease_kwh, decrease_cost_yuan 全交叉），**一张图塞不下**——建议按某一维拆成多面板，或选择子集。",
+    "slot 跨数个量级（1 ~ 144）→ 用对数 y 轴",
+    "charge_kwh 高度偏态（skew=1.86）→ 考虑对数变换或小提琴图代替均值柱图",
+    "discharge_kwh 高度偏态（skew=1.98）→ 考虑对数变换或小提琴图代替均值柱图",
+    "emergency_kwh 高度偏态（skew=27.91）→ 考虑对数变换或小提琴图代替均值柱图",
+    "unused_kwh 高度偏态（skew=4.56）→ 考虑对数变换或小提琴图代替均值柱图",
+    "price_yuan_per_kwh 跨数个量级（0.0076 ~ 1.79）→ 用对数 y 轴",
+    "forecast_price 跨数个量级（0.0111 ~ 1.74）→ 用对数 y 轴",
+    "increase_kwh 高度偏态（skew=6.41）→ 考虑对数变换或小提琴图代替均值柱图",
+    "plan_cost_yuan 高度偏态（skew=1.19）→ 考虑对数变换或小提琴图代替均值柱图",
+    "increase_cost_yuan 高度偏态（skew=7.23）→ 考虑对数变换或小提琴图代替均值柱图",
+    "emergency_cost_yuan 高度偏态（skew=40.83）→ 考虑对数变换或小提琴图代替均值柱图",
+    "total_cost_yuan 高度偏态（skew=1.61）→ 考虑对数变换或小提琴图代替均值柱图",
+    "baseline_cost_yuan 高度偏态（skew=1.19）→ 考虑对数变换或小提琴图代替均值柱图"
+  ]
+}

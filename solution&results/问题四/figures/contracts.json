@@ -1,0 +1,110 @@
+[
+  {
+    "name": "raw_q1_price_distribution",
+    "claim": "电价覆盖显著变化范围，不能按固定单价结算",
+    "source": "附件4，2—12月48096时段",
+    "kind": "histogram",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "raw_q1_intraday_price",
+    "claim": "不同季节的日内价格形状与水平存在差异",
+    "source": "附件4，365日按冬春夏秋分组，不画推断区间",
+    "kind": "line",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "raw_q2_load_price_relation",
+    "claim": "净负载与价格需联合考虑，散点本身不作因果解释",
+    "source": "附件2、4，334日均无删除",
+    "kind": "scatter",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "process_q1_price_forecast",
+    "claim": "已发布节点只能依据此前观测修正未来价格",
+    "source": "3月20日实际与因果价格预测，144/72个对应时段",
+    "kind": "line",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "process_q2_pv_error",
+    "claim": "在相同有效时段比较不同发布版本的误差",
+    "source": "334日×30段/版本；箱体IQR，中线中位数，须1.5IQR，不显示离群点、不删原数据，不作独立样本显著性检验",
+    "kind": "boxplot",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "process_q2_storage",
+    "claim": "实际库存反馈与计划参考轨迹不同，但受同一物理边界限制",
+    "source": "Q4-3账本，3月20日144段",
+    "kind": "line",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "result_q1_cost",
+    "claim": "总费用需逐月计入计划和应急两项",
+    "source": "Q4-2，334日按月实际加总，非样本均值，无误差棒",
+    "kind": "stacked_bar",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "result_q2_information_value",
+    "claim": "信息收益必须固定调整机会并检验费用差",
+    "source": "公平6000起终库存；334日，7日循环块bootstrap，2000次，种子2026；正值表示更新便宜",
+    "kind": "interval",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  },
+  {
+    "name": "result_q2_emergency",
+    "claim": "降低应急电量不等于总成本一定降低",
+    "source": "两分支主结果，2—12月实际应急按月加总",
+    "kind": "grouped_bar",
+    "layout": "single quantitative panel",
+    "size_inches": [
+      6.3,
+      3.8
+    ],
+    "dpi": 400
+  }
+]

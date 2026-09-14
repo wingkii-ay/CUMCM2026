@@ -1,0 +1,380 @@
+{
+  "raw_q2_daily_energy": {
+    "filename": "图10 问题二每日负载与光伏电量",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "raw_q2_netload_distribution": {
+    "filename": "图11 问题二净负载分布",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "raw_q2_price_netload": {
+    "filename": "图12 问题二固定电价与平均净负载",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "process_q2_forecast_error": {
+    "filename": "图13 问题二净负载预测与实际值",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "process_q2_storage_feedback": {
+    "filename": "图14 问题二储能参考与实际轨迹",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "process_q2_actions": {
+    "filename": "图15 问题二实际充放电功率",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "result_q2_monthly_cost": {
+    "filename": "图16 问题二月度购电费用构成",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "result_q2_emergency_map": {
+    "filename": "图17 问题二紧急购电分布",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "result_q2_fair_cost": {
+    "filename": "图18 问题二相同起止库存下累计费用对比",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  }
+}

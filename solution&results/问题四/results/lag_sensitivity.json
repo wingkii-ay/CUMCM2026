@@ -1,0 +1,25 @@
+{
+  "q42": {
+    "branch": 2,
+    "cost_lag0": 14410716.100289255,
+    "emergency_lag0": 79181.70444259948,
+    "lag0_source": "q42_dispatch_all.csv (delivered artefact)",
+    "lag0_vs_delivered_error_yuan": 0.0,
+    "cost_lag1": 14559066.409044456,
+    "emergency_lag1": 107514.60758229726,
+    "cost_delta_pct_lag1": 1.0294443920952911,
+    "max_state_change_lag1": 1068.1093675694428
+  },
+  "q43": {
+    "branch": 3,
+    "cost_lag0": 14329837.011647996,
+    "emergency_lag0": 53548.99431979343,
+    "lag0_source": "q43_dispatch_all.csv (delivered artefact)",
+    "lag0_vs_delivered_error_yuan": 1.862645149230957e-09,
+    "cost_lag1": 14745494.877786689,
+    "emergency_lag1": 120346.111630904,
+    "cost_delta_pct_lag1": 2.9006461539013095,
+    "max_state_change_lag1": 1164.2250900925928
+  },
+  "note": "lag>=1 is strictly causal-only observation; the gap is the value of the declared within-slot idealisation. It is a modelling shortcut, not a use of future slots."
+}

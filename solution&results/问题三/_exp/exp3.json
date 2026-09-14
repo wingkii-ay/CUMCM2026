@@ -1,0 +1,28 @@
+{
+  "False": {
+    "plan_cost_yuan": 13422578.070479745,
+    "increase_cost_yuan": 194545.66335582835,
+    "emergency_cost_yuan": 173783.37462771544,
+    "total_cost_yuan": 13790907.108463287,
+    "original_grid_kwh": 22021052.33526186,
+    "adjusted_grid_kwh": 22203382.383945145,
+    "increase_kwh": 182330.0486832871,
+    "emergency_kwh": 32474.606626255474,
+    "unused_kwh": 3070629.702882887,
+    "charge_kwh": 6454160.15000643,
+    "discharge_kwh": 5228122.357284583
+  },
+  "True": {
+    "plan_cost_yuan": 12141305.994090587,
+    "increase_cost_yuan": 1116320.2659126418,
+    "emergency_cost_yuan": 317958.81011981826,
+    "total_cost_yuan": 13575585.070123048,
+    "original_grid_kwh": 20208033.88764814,
+    "adjusted_grid_kwh": 21174733.669557907,
+    "increase_kwh": 966699.7819097699,
+    "emergency_kwh": 63751.53819758516,
+    "unused_kwh": 2033503.979424104,
+    "charge_kwh": 6664819.633699855,
+    "discharge_kwh": 5399027.900335133
+  }
+}

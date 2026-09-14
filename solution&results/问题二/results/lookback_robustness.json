@@ -1,0 +1,38 @@
+{
+  "baseline_mixed_total_cost_yuan": 17260360.156872056,
+  "baseline_description": "工作日/周末混合、7天窗口",
+  "production_weeks": 8,
+  "study": [
+    {
+      "weeks": 4,
+      "total_cost_yuan": 13760140.113295037,
+      "saving_yuan": 3500220.043577019,
+      "saving_pct": 20.27895137624598
+    },
+    {
+      "weeks": 8,
+      "total_cost_yuan": 13672895.404621322,
+      "saving_yuan": 3587464.7522507347,
+      "saving_pct": 20.784414228010288
+    },
+    {
+      "weeks": 12,
+      "total_cost_yuan": 13618376.431454858,
+      "saving_yuan": 3641983.7254171986,
+      "saving_pct": 21.10027654299656
+    },
+    {
+      "weeks": 16,
+      "total_cost_yuan": 13606585.393751666,
+      "saving_yuan": 3653774.7631203905,
+      "saving_pct": 21.168589356843015
+    },
+    {
+      "weeks": 24,
+      "total_cost_yuan": 13577220.754768832,
+      "saving_yuan": 3683139.402103225,
+      "saving_pct": 21.338716971307324
+    }
+  ],
+  "saving_pct_spread": 1.059765595061343
+}

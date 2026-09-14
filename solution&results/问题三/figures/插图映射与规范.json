@@ -1,0 +1,380 @@
+{
+  "raw_q3_forecasts": {
+    "filename": "图19 问题三多时刻光伏预报与实际功率",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "raw_q3_errors": {
+    "filename": "图20 问题三共同目标时段的预报误差分布",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "raw_q3_energy": {
+    "filename": "图21 问题三日前预报与实际光伏日总电量",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "process_q3_purchase": {
+    "filename": "图22 问题三原计划与最终调整购电量",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "process_q3_storage": {
+    "filename": "图23 问题三日内更新与实际储电量",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "process_q3_increments": {
+    "filename": "图24 问题三不同决策时刻的最终增购电量",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "result_q3_monthly": {
+    "filename": "图25 问题三月度购电费用构成",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "result_q3_policies": {
+    "filename": "图26 问题三相同起止库存下的策略费用",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "result_q3_information": {
+    "filename": "图27 问题三预报更新与调整策略的配对费用差",
+    "title_inside": false,
+    "size_inches": [
+      6.3,
+      3.9
+    ],
+    "raster_dpi": 1200,
+    "font_family": [
+      "Arial",
+      "Microsoft YaHei"
+    ],
+    "text_sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "line_width_pt": [
+      0.5,
+      1.5
+    ],
+    "background": "white",
+    "palette": {
+      "primary": "#0072B2",
+      "secondary": "#E69F00",
+      "positive": "#009E73",
+      "contrast": "#D55E00",
+      "accent": "#CC79A7",
+      "sky": "#56B4E9",
+      "neutral": "#6B7280",
+      "dark": "#222222",
+      "observed": "#000000",
+      "f0": "#0072B2",
+      "f6": "#E69F00",
+      "f12": "#009E73",
+      "f18": "#D55E00"
+    },
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  }
+}

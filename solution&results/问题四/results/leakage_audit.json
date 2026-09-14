@@ -1,0 +1,23 @@
+{
+  "days_tested": [
+    32,
+    62,
+    92,
+    122,
+    152,
+    182,
+    213,
+    243,
+    273,
+    303,
+    333,
+    363
+  ],
+  "configs": 5,
+  "perturbation_runs": 780,
+  "worst_control_leak": 0.0,
+  "leak_violations": [],
+  "forecast_violations": [],
+  "scene_violations": [],
+  "status": "PASS"
+}

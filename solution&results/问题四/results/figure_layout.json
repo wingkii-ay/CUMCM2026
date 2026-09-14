@@ -1,0 +1,47 @@
+[
+  {
+    "name": "raw_q1_price_distribution",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "raw_q1_intraday_price",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "raw_q2_load_price_relation",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "process_q1_price_forecast",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "process_q2_pv_error",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "process_q2_storage",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "result_q1_cost",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "result_q2_information_value",
+    "layout": [],
+    "design": []
+  },
+  {
+    "name": "result_q2_emergency",
+    "layout": [],
+    "design": []
+  }
+]

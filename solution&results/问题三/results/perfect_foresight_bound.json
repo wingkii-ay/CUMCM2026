@@ -1,0 +1,29 @@
+{
+  "period": "2025-02-01 ~ 2025-12-31",
+  "slots": 48096,
+  "initial_kwh": 6288.0590509259255,
+  "actual_final_kwh": 5705.840119537039,
+  "final_free": {
+    "status": "optimal",
+    "total_cost_yuan": 12228029.862851534,
+    "grid_kwh": 20184162.39890548,
+    "charge_kwh": 6628337.193539507,
+    "discharge_kwh": 5373532.379912833,
+    "final_kwh": 1200.0,
+    "min_soc": 1200.0,
+    "max_soc": 10800.0
+  },
+  "final_ge_actual": {
+    "status": "optimal",
+    "total_cost_yuan": 12230108.36419674,
+    "grid_kwh": 20189168.88792719,
+    "charge_kwh": 6633343.682561214,
+    "discharge_kwh": 5373532.379912833,
+    "final_kwh": 5705.840119537039,
+    "min_soc": 1200.0,
+    "max_soc": 10800.0
+  },
+  "main_strategy_total_cost_yuan": 13575585.070123048,
+  "gap_yuan": 1345476.7059263084,
+  "gap_pct": 9.911003459345661
+}

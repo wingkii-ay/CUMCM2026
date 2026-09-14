@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-13T07:19:59.337659+00:00",
+  "random_seed": 2026,
+  "input_files": [
+    {
+      "path": "C:\\Users\\wingkii\\Desktop\\CUMCM2026Problems\\C题\\附件\\附件2.xlsx",
+      "sha256": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+      "bytes": 907128
+    },
+    {
+      "path": "C:\\Users\\wingkii\\Desktop\\CUMCM2026Problems\\C题\\附件\\附件3.xlsx",
+      "sha256": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+      "bytes": 293526
+    },
+    {
+      "path": "C:\\Users\\wingkii\\Desktop\\CUMCM2026Problems\\C题\\附件\\附件4.xlsx",
+      "sha256": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+      "bytes": 409790
+    },
+    {
+      "path": "C:\\Users\\wingkii\\Desktop\\CUMCM2026Problems\\C题\\附件\\附件5\\result4-2.xlsx",
+      "sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "bytes": 18397
+    },
+    {
+      "path": "C:\\Users\\wingkii\\Desktop\\CUMCM2026Problems\\C题\\附件\\附件5\\result4-3.xlsx",
+      "sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+      "bytes": 265429
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.9",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.16.3",
+      "openpyxl": "3.1.5",
+      "matplotlib": "3.10.6"
+    }
+  },
+  "key_parameters": {
+    "load_weeks": 8,
+    "price_days": 28,
+    "price_observations": 6,
+    "decay_slots": 36,
+    "scenes": 7,
+    "step": 100.0,
+    "eta": 0.9,
+    "price_floor": 0.001,
+    "seed": 2026,
+    "settlement": "floating delivery-slot actual prices, original nonrefundable, final net adjustment",
+    "development_backtest": true,
+    "branches": [
+      "Q4-2",
+      "Q4-3"
+    ],
+    "evaluation_days": 334
+  },
+  "reproduce_command": "python run_all.py --input \"c:\\Users\\wingkii\\Desktop\\CUMCM2026Problems\\C题\\附件\""
+}

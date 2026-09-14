@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "directory": "C:\\Users\\wingkii\\Desktop\\Œ Ã‚Àƒ\\figures",
+  "questions": [
+    "q1",
+    "q2"
+  ],
+  "files": {
+    "process_q1_price_forecast.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "process_q1_price_forecast.svg": {
+      "text_count": 17,
+      "embedded_raster": false
+    },
+    "process_q2_pv_error.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "process_q2_pv_error.svg": {
+      "text_count": 10,
+      "embedded_raster": false
+    },
+    "process_q2_storage.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "process_q2_storage.svg": {
+      "text_count": 16,
+      "embedded_raster": false
+    },
+    "raw_q1_intraday_price.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "raw_q1_intraday_price.svg": {
+      "text_count": 20,
+      "embedded_raster": false
+    },
+    "raw_q1_price_distribution.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "raw_q1_price_distribution.svg": {
+      "text_count": 19,
+      "embedded_raster": false
+    },
+    "raw_q2_load_price_relation.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "raw_q2_load_price_relation.svg": {
+      "text_count": 15,
+      "embedded_raster": false
+    },
+    "result_q1_cost.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "result_q1_cost.svg": {
+      "text_count": 24,
+      "embedded_raster": false
+    },
+    "result_q2_emergency.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "result_q2_emergency.svg": {
+      "text_count": 24,
+      "embedded_raster": false
+    },
+    "result_q2_information_value.png": {
+      "width_px": 2520,
+      "height_px": 1520,
+      "dpi_x": 399.9992,
+      "dpi_y": 399.9992,
+      "width_in": 6.300012600025201,
+      "height_in": 3.8000076000152
+    },
+    "result_q2_information_value.svg": {
+      "text_count": 12,
+      "embedded_raster": false
+    }
+  },
+  "issues": []
+}

@@ -1,0 +1,2 @@
+2 {'lower_bound': 12782834.19458194, 'main_cost': 14410716.100289255, 'gap_yuan': 1627881.9057073146, 'gap_over_lower_pct': 12.734905897451899, 'initial': 6500.0, 'final': 5983.906788750001, 'residual': 1.8189894035458565e-12, 'status': 'optimal'}
+3 {'lower_bound': 12782762.207660383, 'main_cost': 14329837.011647996, 'gap_yuan': 1547074.803987613, 'gap_over_lower_pct': 12.102820805510174, 'initial': 6436.398472469135, 'final': 5780.650412175926, 'residual': 1.8189894035458565e-12, 'status': 'optimal'}

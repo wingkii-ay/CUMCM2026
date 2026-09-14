@@ -1,0 +1,27 @@
+{
+  "mode": "chain",
+  "cut_day": 334,
+  "chains": [
+    {
+      "check": "whole-year-carryover",
+      "branch": 2,
+      "policy": "all",
+      "cut_day": 334,
+      "days_compared": 334,
+      "leak": 0.0,
+      "final_soc_real": 5983.906788750001,
+      "final_soc_ruined": 10337.860697516093
+    },
+    {
+      "check": "whole-year-carryover",
+      "branch": 3,
+      "policy": "all",
+      "cut_day": 334,
+      "days_compared": 334,
+      "leak": 0.0,
+      "final_soc_real": 5983.906788750001,
+      "final_soc_ruined": 10332.487434177261
+    }
+  ],
+  "status": "PASS"
+}

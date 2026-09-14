@@ -1,0 +1,17 @@
+{
+ "total_cost_yuan": 13578634.218560506,
+ "plan_cost_yuan": 12141305.994090587,
+ "increase_cost_yuan": 1114532.5291389017,
+ "decrease_cost_yuan": 0.0,
+ "emergency_cost_yuan": 322795.6953310154,
+ "original_grid_kwh": 20208033.88764814,
+ "adjusted_grid_kwh": 21173251.934917793,
+ "increase_kwh": 965218.0472696538,
+ "emergency_kwh": 66044.62706703742,
+ "unused_kwh": 2034289.1424701223,
+ "charge_kwh": 6664957.4820331065,
+ "discharge_kwh": 5399139.557485066,
+ "final_kwh": 5705.840119537039,
+ "initial_kwh": 6288.0590509259255,
+ "runtime_s": 100.54240279999794
+}

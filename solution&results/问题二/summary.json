@@ -1,0 +1,58 @@
+{
+  "days_run": 365,
+  "lookback_weeks": 8,
+  "scenario_count": 7,
+  "state_grid_kwh": 100,
+  "eta_charge": 0.9,
+  "eta_discharge": 0.9,
+  "kappa_yuan_per_internal_kwh": 0.472,
+  "validation": {
+    "balance_residual_kwh": 4.547473508864641e-13,
+    "storage_residual_kwh": 0.0,
+    "continuity_residual_kwh": 0.0,
+    "simultaneous_kwh": 0.0,
+    "charge_source_violation_kwh": 0.0,
+    "power_violation_kw": 5.4569682106375694e-12,
+    "min_storage_kwh": 1200.0,
+    "max_storage_kwh": 10800.0
+  },
+  "input_hashes": {
+    "附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+    "附件5/result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47"
+  },
+  "evaluation": {
+    "grid_kwh": 21755323.566396497,
+    "emergency_kwh": 91070.3826881958,
+    "charge_kwh": 6509852.6497645695,
+    "discharge_kwh": 5273233.2820886765,
+    "unused_kwh": 2670585.0864421325,
+    "plan_cost_yuan": 13227687.230423387,
+    "emergency_cost_yuan": 445208.1741979354,
+    "total_cost_yuan": 13672895.404621322,
+    "baseline_cost_yuan": 18291996.04640216,
+    "days": 334,
+    "initial_kwh": 6200.0,
+    "final_kwh": 5919.29357847222,
+    "emergency_slots": 1029,
+    "emergency_events": 353
+  },
+  "january_cost_yuan": 2158433.858800701,
+  "fair_boundary_validation": {
+    "balance_residual_kwh": 4.547473508864641e-13,
+    "storage_residual_kwh": 0.0,
+    "continuity_residual_kwh": 0.0,
+    "simultaneous_kwh": 0.0,
+    "charge_source_violation_kwh": 0.0,
+    "power_violation_kw": 5.4569682106375694e-12,
+    "min_storage_kwh": 1200.0,
+    "max_storage_kwh": 10800.0
+  },
+  "fair_boundary": {
+    "initial_kwh": 6000.0,
+    "final_kwh": 6000.0,
+    "total_cost_yuan": 13673028.222180068,
+    "baseline_cost_yuan": 18291996.04640216
+  },
+  "runtime_seconds": 74.6675490999769
+}

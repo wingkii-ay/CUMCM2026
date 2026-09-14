@@ -1,0 +1,82 @@
+
+--- C:\Users\wingkii\Desktop\问题四\figures\process_q1_price_forecast.png ---
+  category: raster  ext: png  size: 242410 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\process_q2_pv_error.png ---
+  category: raster  ext: png  size: 72472 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\process_q2_storage.png ---
+  category: raster  ext: png  size: 179684 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\raw_q1_intraday_price.png ---
+  category: raster  ext: png  size: 290757 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\raw_q1_price_distribution.png ---
+  category: raster  ext: png  size: 79456 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\raw_q2_load_price_relation.png ---
+  category: raster  ext: png  size: 179995 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\result_q1_cost.png ---
+  category: raster  ext: png  size: 72817 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\result_q2_emergency.png ---
+  category: raster  ext: png  size: 69026 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\result_q2_information_value.png ---
+  category: raster  ext: png  size: 86938 B
+  pixels: 2520x1520  dpi: (399.9992, 399.9992)
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\process_q1_price_forecast.svg ---
+  category: vector  ext: svg  size: 19251 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\process_q2_pv_error.svg ---
+  category: vector  ext: svg  size: 10239 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\process_q2_storage.svg ---
+  category: vector  ext: svg  size: 14873 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\raw_q1_intraday_price.svg ---
+  category: vector  ext: svg  size: 25894 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\raw_q1_price_distribution.svg ---
+  category: vector  ext: svg  size: 23840 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\raw_q2_load_price_relation.svg ---
+  category: vector  ext: svg  size: 63758 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\result_q1_cost.svg ---
+  category: vector  ext: svg  size: 17285 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\result_q2_emergency.svg ---
+  category: vector  ext: svg  size: 17278 B
+  [PASS] 无问题。
+
+--- C:\Users\wingkii\Desktop\问题四\figures\result_q2_information_value.svg ---
+  category: vector  ext: svg  size: 9442 B
+  [PASS] 无问题。
+

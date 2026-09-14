@@ -1,0 +1,37 @@
+Q4-2 all fair=False 2025-01-01
+Q4-3 all fair=False 2025-01-01
+Q4-2 all fair=True 2025-04-01
+Q4-2 all fair=False 2025-04-01
+Q4-3 all fair=False 2025-04-01
+Q4-2 all fair=True 2025-06-30
+Q4-2 all fair=False 2025-06-30
+Q4-2 all fair=True 2025-09-28
+Q4-3 all fair=False 2025-06-30
+Q4-2 all fair=False 2025-09-28
+Q4-2 all fair=True 2025-12-27
+Q4-3 all fair=False 2025-09-28
+Q4-2 all fair=False 2025-12-27
+Q4-3 all fair=True 2025-04-01
+q42_all {'cost': 14410716.100289255, 'initial': 6500.0, 'final': 5983.906788750001, 'emergency': 79181.70444259947, 'checks': {'balance': 2.2737367544323206e-13, 'dynamics': 0.0, 'continuity': 0.0, 'mutual_exclusion': 0.0, 'source': 0.0, 'power': 5.4569682106375694e-12, 'account': 9.094947017729282e-13}, 'seconds': 73.55185270309448}
+Q4-3 only0 fair=True 2025-04-01
+Q4-3 all fair=False 2025-12-27
+Q4-3 all fair=True 2025-06-30
+Q4-3 only0 fair=True 2025-06-30
+q43_all {'cost': 14329837.011647996, 'initial': 6436.3984724691345, 'final': 5780.650412175926, 'emergency': 53548.99431979343, 'checks': {'balance': 2.2737367544323206e-13, 'dynamics': 0.0, 'continuity': 0.0, 'mutual_exclusion': 0.0, 'source': 0.0, 'power': 5.4569682106375694e-12, 'account': 9.094947017729282e-13}, 'seconds': 95.55953621864319}
+q42_all_fair {'cost': 14410928.885974947, 'initial': 6000.0, 'final': 6000.0, 'emergency': 79188.6293037106, 'checks': {'balance': 2.2737367544323206e-13, 'dynamics': 0.0, 'continuity': 0.0, 'mutual_exclusion': 0.0, 'source': 0.0, 'power': 5.4569682106375694e-12, 'account': 9.094947017729282e-13}, 'seconds': 60.21635389328003}
+Q4-3 stale_all fair=True 2025-04-01
+Q4-3 only0 fair=True 2025-09-28
+Q4-3 all fair=True 2025-09-28
+Q4-3 stale_all fair=True 2025-06-30
+Q4-3 only0 fair=True 2025-12-27
+Q4-3 all fair=True 2025-12-27
+q43_all_fair {'cost': 14330482.522543617, 'initial': 6000.0, 'final': 6000.0, 'emergency': 53751.218306410374, 'checks': {'balance': 2.2737367544323206e-13, 'dynamics': 0.0, 'continuity': 0.0, 'mutual_exclusion': 0.0, 'source': 0.0, 'power': 5.4569682106375694e-12, 'account': 9.094947017729282e-13}, 'seconds': 85.49164271354675}
+q43_only0_fair {'cost': 14662380.934104215, 'initial': 6000.0, 'final': 6000.0, 'emergency': 89434.44963472827, 'checks': {'balance': 2.2737367544323206e-13, 'dynamics': 0.0, 'continuity': 0.0, 'mutual_exclusion': 0.0, 'source': 0.0, 'power': 5.4569682106375694e-12, 'account': 9.094947017729282e-13}, 'seconds': 62.38380718231201}
+Q4-3 stale18 fair=True 2025-04-01
+Q4-3 stale_all fair=True 2025-09-28
+Q4-3 stale18 fair=True 2025-06-30
+Q4-3 stale_all fair=True 2025-12-27
+q43_stale_all_fair {'cost': 14872396.991661634, 'initial': 6000.0, 'final': 6000.0, 'emergency': 109891.30553374116, 'checks': {'balance': 2.2737367544323206e-13, 'dynamics': 0.0, 'continuity': 0.0, 'mutual_exclusion': 0.0, 'source': 0.0, 'power': 5.4569682106375694e-12, 'account': 9.094947017729282e-13}, 'seconds': 85.30208539962769}
+Q4-3 stale18 fair=True 2025-09-28
+Q4-3 stale18 fair=True 2025-12-27
+q43_stale18_fair {'cost': 14331537.429167707, 'initial': 6000.0, 'final': 6000.0, 'emergency': 53966.378806514535, 'checks': {'balance': 2.2737367544323206e-13, 'dynamics': 0.0, 'continuity': 0.0, 'mutual_exclusion': 0.0, 'source': 0.0, 'power': 5.4569682106375694e-12, 'account': 9.094947017729282e-13}, 'seconds': 79.99797010421753}

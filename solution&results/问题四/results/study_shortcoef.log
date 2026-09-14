@@ -1,0 +1,14 @@
+Q4-3 all        coef=5.0 cost=14,535,183 emergency=27,137 kWh
+Q4-3 all        coef=3.0 cost=14,380,357 emergency=41,711 kWh
+Q4-3 all        coef=2.0 cost=14,315,163 emergency=47,224 kWh
+Q4-3 all        coef=1.5 cost=14,330,483 emergency=53,751 kWh
+Q4-3 stale_all  coef=5.0 cost=14,536,420 emergency=53,133 kWh
+Q4-3 stale_all  coef=3.0 cost=14,519,085 emergency=96,775 kWh
+Q4-3 stale_all  coef=2.0 cost=14,686,280 emergency=103,217 kWh
+Q4-3 stale_all  coef=1.5 cost=14,872,397 emergency=109,891 kWh
+Q4-2 all        coef=1.5 cost=14,410,929 emergency=79,189 kWh
+{
+  "note": "主结果取 adj_coef=1.5（合同增购价）；本表只作稳健性诊断，不用于选参。",
+  "reference_q42_fair": 14410928.885974947,
+  "max_range_pct_all": 1.4284234823073616
+}

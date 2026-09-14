@@ -1,0 +1,22 @@
+{
+  "branch": 2,
+  "cost_lag0": 14410716.100289255,
+  "emergency_lag0": 79181.70444259948,
+  "lag0_source": "q42_dispatch_all.csv (delivered artefact)",
+  "lag0_vs_delivered_error_yuan": 0.0,
+  "cost_lag1": 14559066.409044456,
+  "emergency_lag1": 107514.60758229726,
+  "cost_delta_pct_lag1": 1.0294443920952911,
+  "max_state_change_lag1": 1068.1093675694428
+}
+{
+  "branch": 3,
+  "cost_lag0": 14534969.714337891,
+  "emergency_lag0": 27130.026357425413,
+  "lag0_source": "q43_dispatch_all.csv (delivered artefact)",
+  "lag0_vs_delivered_error_yuan": 1.862645149230957e-09,
+  "cost_lag1": 14741771.123532042,
+  "emergency_lag1": 55605.26110549757,
+  "cost_delta_pct_lag1": 1.4227852775651417,
+  "max_state_change_lag1": 1189.2076990740734
+}
